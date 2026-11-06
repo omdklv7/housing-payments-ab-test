@@ -1,14 +1,24 @@
-# Private / third-party recruitment assignment dataset
-/data/*.xlsx
-/data/*.xls
-/data/*.csv
-!/data/README.md
-!/data/.gitkeep
 
-# Python and notebook artifacts
+# Python
 __pycache__/
-*.py[cod]
-.ipynb_checkpoints/
+*.pyc
 .venv/
 venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local datasets
+*.xlsx
+*.xls
+*.csv
+
+# Environment variables
+.env
+
+# macOS
 .DS_Store
+
+# Temporary files
+*.log
+
